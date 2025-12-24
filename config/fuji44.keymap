@@ -16,10 +16,10 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_esc {
-            timeout-ms = <50>;
-            key-positions = <0 1>;
-            bindings = <&kp ESC>;
+        bt_clear_combo {
+            bindings = <&bt BT_CLR>;
+            key-positions = <39 40>;
+            layers = <3>;
         };
     };
 
