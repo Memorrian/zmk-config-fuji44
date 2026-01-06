@@ -6,8 +6,6 @@ manifest:
       url-base: https://github.com/badjeff
     - name: nrfconnect
       url-base: https://github.com/nrfconnect
-    - name: memorrian
-      url-base: https://github.com/Memorrian
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -25,8 +23,5 @@ manifest:
       revision: v2.6.4
       repo-path: sdk-nrfxlib
       path: nrfxlib
-    - name: zmk-dongle-screen
-      remote: memorrian
-      revision: main
   self:
     path: config
