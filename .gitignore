@@ -1,11 +1,4 @@
 # Build artifacts
-build/
-*.uf2
-*.hex
-*.bin
-
-# West workspace
-.west/
 
 # IDE
 .vscode/
@@ -33,7 +26,4 @@ __pycache__/
 venv/
 env/
 
-# Node modules (if used)
-node_modules/
-npm-debug.log
-yarn-error.log
+
