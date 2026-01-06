@@ -1,8 +1,4 @@
 manifest:
-  west-commands:
-    - file: scripts/west-commands.yml
-      project: zephyr
-
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
@@ -16,6 +12,7 @@ manifest:
       repo-path: sdk-zephyr
       revision: v3.5.99-ncs1
       path: zephyr
+      west-commands: scripts/west-commands.yml
 
     - name: zmk
       remote: zmkfirmware
