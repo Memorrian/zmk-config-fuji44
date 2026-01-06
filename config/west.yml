@@ -33,5 +33,11 @@ manifest:
       revision: v2.6.4
       repo-path: sdk-nrfxlib
       path: nrfxlib
+
+    - name: hal_nordic
+      remote: nrfconnect
+      revision: v2.6.4
+      repo-path: sdk-hal_nordic
+      path: modules/hal/nordic
   self:
     path: config
