@@ -1,6 +1,7 @@
 include:
-  - board: xiao_ble
-    shield: settings_reset
+  - board: seeeduino_xiao_ble
+    shield: fuji44_dongle
+    artifact-name: fuji44_dongle
   - board: nice_nano
     shield: fuji44_left
   - board: nice_nano
