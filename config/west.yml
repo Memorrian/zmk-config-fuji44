@@ -6,14 +6,8 @@ manifest:
       url-base: https://github.com/badjeff
     - name: nrfconnect
       url-base: https://github.com/nrfconnect
-  projects:
-    - name: zephyr
-      remote: nrfconnect
-      repo-path: sdk-zephyr
-      revision: v3.5.99-ncs1
-      path: zephyr
-      west-commands: scripts/west-commands.yml
 
+  projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
@@ -24,20 +18,15 @@ manifest:
       revision: main
 
     - name: sdk-nrf
-      remote: nrfconnect
-      revision: v2.6.4
+      remote: badjeff
+      revision: v3.1-branch+zmk-fixes
       path: nrf
 
     - name: nrfxlib
       remote: nrfconnect
-      revision: v2.6.4
+      revision: v3.1-branch
       repo-path: sdk-nrfxlib
       path: nrfxlib
-
-    - name: hal_nordic
-      remote: nrfconnect
-      revision: v2.6.4
-      repo-path: sdk-hal_nordic
-      path: modules/hal/nordic
+      
   self:
     path: config
