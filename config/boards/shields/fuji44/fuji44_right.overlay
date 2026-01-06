@@ -1,5 +1,4 @@
 #include "fuji44.dtsi"
-#include "fuji44_esb_addr.dtsi"
 
 &default_transform {
     col-offset = <6>;
