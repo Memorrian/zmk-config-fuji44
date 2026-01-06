@@ -1,7 +1,7 @@
 include:
   - board: xiao_ble
-    shield: fuji44_central_dongle dongle_screen
-    artifact-name: fuji44_central_dongle
+    shield: fuji44_dongle
+    artifact-name: fuji44_dongle
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: nice_nano
