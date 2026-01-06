@@ -1,0 +1,39 @@
+# Build artifacts
+build/
+*.uf2
+*.hex
+*.bin
+
+# West workspace
+.west/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# Python (if used)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# Node modules (if used)
+node_modules/
+npm-debug.log
+yarn-error.log
