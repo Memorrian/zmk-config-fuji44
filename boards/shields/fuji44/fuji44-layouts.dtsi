@@ -6,7 +6,7 @@
         display-name = "Fuji44 (default)";
 
         transform = <&default_transform>;
-        kscan = <&mock_kscan>;
+
 
         /* keys: w h x y rot rx ry (в “centi-keyunits”, 100 = 1.00u) */
         keys
